@@ -10,8 +10,20 @@ class ButtomsCard extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceAround,
       children: [
         LikeButtom(),
-        TextButton(onPressed: () {}, child: const Text("Comment")),
-        TextButton(onPressed: () {}, child: const Icon(Icons.share)),
+        TextButton(
+          onPressed: () {},
+          child: const Icon(
+            Icons.chat_bubble_rounded,
+            color: Color.fromARGB(255, 101, 104, 105),
+          ),
+        ),
+        TextButton(
+          onPressed: () {},
+          child: const Icon(
+            Icons.share,
+            color: Color.fromARGB(255, 101, 104, 105),
+          ),
+        ),
       ],
     );
   }
