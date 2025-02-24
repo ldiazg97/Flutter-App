@@ -18,7 +18,7 @@ class TitleCard extends StatelessWidget {
         Text(
           name,
           style: TextStyle(
-            color: Colors.blueAccent,
+            color: const Color.fromARGB(255, 227, 229, 233),
             fontSize: 18,
             fontWeight: FontWeight.bold,
           ),
